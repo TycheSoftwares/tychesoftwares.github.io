@@ -45,6 +45,7 @@ footer {
   border: 1px solid #eeeeee;
   border-radius: 3px;
   overflow: hidden;
+  margin-top:5px;
 }
 .list .row {
   text-decoration: none;
@@ -61,7 +62,6 @@ footer {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   margin-right: 7px;
-  content: "\f09b";
   position: absolute;
   top: 50%;
   left: 1em;
@@ -69,7 +69,6 @@ footer {
   color: #dadada;
 }
 .list .row:after {
-  content: "\f105";
   left: auto;
   right: 1em;
   -webkit-transition: all ease .4s;
@@ -117,7 +116,4 @@ footer {
 }
 .contributing p:last-child {
   margin: 0;
-}
-.logo {
-  margin-bottom: 20px;
 }
