@@ -1,6 +1,8 @@
 body {
     margin: 10px auto;
     width: 70%;
+    font-family: sans-serif;
+    font-size: 15px;
 }
 nav {
     text-align:center;
@@ -27,7 +29,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
+    font-size: 15px;
     line-height: 1.4em;
     color: #333;
 }
@@ -40,7 +42,6 @@ footer {
 .list {
   margin: 3.631em 0;
   padding: 0;
-  list-style: none;
   border: 1px solid #eeeeee;
   border-radius: 3px;
   overflow: hidden;
@@ -53,7 +54,6 @@ footer {
 }
 .list .row:before,
 .list .row:after {
-  font-family: 'FontAwesome';
   speak: none;
   font-weight: normal;
   font-variant: normal;
